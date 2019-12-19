@@ -1,0 +1,27 @@
+$color: blue;
+
+h1 {
+  color: $color;
+}
+@media print {
+    .screen-only {
+        display: none;
+    }
+}
+p {
+  display: block;
+  margin-top: 1em;
+  margin-bottom: 1em;
+  margin-left: 1em;
+  margin-right: 0;
+
+}
+#first {
+    font-size: 20px;
+    color: $color;
+}
+.jobrow > div {
+    padding: 20px;
+    background-color: teal;
+    border: 2px solid black;
+}

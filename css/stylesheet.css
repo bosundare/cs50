@@ -1,0 +1,9 @@
+h1 { color: blue; }
+
+@media print { .screen-only { display: none; } }
+
+p { display: block; margin-top: 1em; margin-bottom: 1em; margin-left: 1em; margin-right: 0; }
+
+#first { font-size: 20px; color: blue; }
+
+.jobrow > div { padding: 20px; background-color: white; border: 2px solid black; }
